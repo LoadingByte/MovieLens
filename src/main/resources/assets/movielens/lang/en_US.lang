@@ -1,0 +1,10 @@
+key.categories.movielens=MovieLens
+
+key.movielens.config=Open MovieLens Config
+
+
+
+gui.movielens.config.title=MovieLens Config
+gui.movielens.config.enabled=Enable fixed format
+gui.movielens.config.selectedFormat=Shoot in format:
+gui.movielens.config.close=Close
