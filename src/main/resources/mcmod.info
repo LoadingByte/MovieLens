@@ -1,0 +1,13 @@
+[
+{
+  "modid": "movielens",
+  "name": "MovieLens",
+  "description": "A Minecraft mod that projects the game world in a fixed aspect ratio. Doing that, it only ever expands, but never crops the frame, enabling you to shoot in real widescreen formats instead of simply overlaying letterboxes.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.unratedfilmindustries.de",
+  "authorList": [ "LoadingByte" ],
+  "requiredMods": [ "guilib" ],
+  "dependencies": [ "guilib" ]
+}
+]
