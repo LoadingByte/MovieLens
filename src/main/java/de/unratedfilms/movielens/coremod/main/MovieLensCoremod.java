@@ -7,10 +7,7 @@ import de.unratedfilms.movielens.coremod.asm.MainClassTransformer;
 import de.unratedfilms.movielens.shared.Consts;
 
 @IFMLLoadingPlugin.Name (Consts.MOD_ID)
-@IFMLLoadingPlugin.MCVersion ("1.7.10")
-@IFMLLoadingPlugin.TransformerExclusions ("de.unratedfilms.movielens.coremod.")
-// Run after the shaders mod
-@IFMLLoadingPlugin.SortingIndex (value = 1150)
+@IFMLLoadingPlugin.TransformerExclusions ("de.unratedfilms." + Consts.MOD_ID + ".coremod.")
 public class MovieLensCoremod implements IFMLLoadingPlugin {
 
     @Override
